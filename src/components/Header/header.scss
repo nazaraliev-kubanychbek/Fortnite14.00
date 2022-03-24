@@ -1,0 +1,17 @@
+.header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: slategray;
+  a{
+    text-decoration: none;
+    font-size: 30px;
+  }
+  &__right{
+    display: flex;
+    column-gap: 15px;
+  }
+}

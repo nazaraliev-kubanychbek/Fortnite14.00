@@ -1,0 +1,28 @@
+
+.order {
+&__empty{
+  text-align: center;
+  margin-top: 25px;
+  font-family: sans-serif;
+}
+  &__item {
+    width: 400px;
+    margin: 30px auto;
+    padding: 15px;
+    background-color: slategray;
+
+    h2 {
+      text-align: center;
+      color: #ffffff;
+    }
+
+    &-list {
+      margin: 10px 0;
+      padding-bottom: 5px;
+      border-bottom: 1px solid red;
+      p{
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

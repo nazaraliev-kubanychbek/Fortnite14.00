@@ -1,0 +1,38 @@
+.home {
+    &__card {
+        background-color: slateblue;
+        margin-top: 15px;
+        padding: 15px;
+        p {
+            margin: 5px 0;
+            color: #fff;
+            font-family: sans-serif;
+        }
+        &-button {
+            padding: 5px 15px;
+            border-radius: 3px;
+            border: 1px solid purple;
+            background-color: purple;
+            color: #fff;
+            transition: .5s;
+            margin-top: 3px;
+            cursor: pointer;
+            &:hover {            
+            background-color: #fff;
+            color: purple;
+            }
+        }
+        &-title {
+            a{
+                color: purple;
+                font-family: sans-serif;
+                text-decoration: none;
+            }
+
+        }
+        &-img {
+            width: 100%;
+            
+        }
+    }
+}

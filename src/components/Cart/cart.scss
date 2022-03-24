@@ -1,0 +1,29 @@
+.cart{
+  &__item{
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid slateblue;
+    &-right{
+      display: flex;
+      column-gap: 10px;
+      align-items: center;
+      button{
+        padding: 5px 10px;
+        background-color: red;
+        color: #fff;
+        border: 1px solid red;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: .5s;
+
+        &:hover{
+          color: red;
+          background: white;
+
+        }
+      }
+    }
+  }
+}

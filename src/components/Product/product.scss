@@ -1,0 +1,38 @@
+.product{
+  &-content{
+    display: flex;
+    column-gap: 100px;
+    background-color: slateblue;
+    padding: 15px;
+  }
+  &__img{
+    width: 47%;
+  }
+  &__right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 15px;
+    p{
+      color: white;
+    }
+    &-button{
+      padding: 10px 70px;
+      background-color: purple;
+      border: 5px solid purple;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: .5s;
+      &:hover{
+        background-color: white;
+        color: purple;
+      }
+    }
+    &-title{
+      color: white;
+      font-size: 30px;
+    }
+  }
+
+}
